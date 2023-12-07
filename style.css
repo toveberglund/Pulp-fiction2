@@ -1,0 +1,149 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: rgb(0, 0, 0);
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  background-image: url('https://images.bauerhosting.com/legacy/empire-tmdb/films/680/images/mte63qJaVnoxkkXbHkdFujBnBgd.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=480&q=80 480w, https://images.bauerhosting.com/legacy/empire-tmdb/films/680/images/mte63qJaVnoxkkXbHkdFujBnBgd.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=768&q=80 768w, https://images.bauerhosting.com/legacy/empire-tmdb/films/680/images/mte63qJaVnoxkkXbHkdFujBnBgd.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=992&q=80 992w, https://images.bauerhosting.com/legacy/empire-tmdb/films/680/images/mte63qJaVnoxkkXbHkdFujBnBgd.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1200&q=80 1200w, https://images.bauerhosting.com/legacy/empire-tmdb/films/680/images/mte63qJaVnoxkkXbHkdFujBnBgd.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80 1440w');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Content on movie background */
+.movie-background .container {
+  padding: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  right: 100px;
+  display: flex;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+/* Main character */
+.main-character { 
+  color:#ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 10px;
+  display: flex;
+  width: 1000px;
+}
+
+.main-character .content {
+  margin-left: 20px;
+  width: 500px;
+}
+
+/* Director */
+.director {
+  color:#ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+}
+
+.director .content {
+  margin-right: 20px;
+  width: 500px;
+  }
+
+/* Rating */
+.rating {
+
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+
+  width: 50px;
+}
+
+/* Rating title */
+.rating h4 {
+  color:rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+.rating .big {
+  color: rgb(252, 252, 252);
+  font-size: 28px;
+}
+
+
+/* Typography */
+h1 {
+  color: rgb(255, 238, 0);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.year {
+  color:rgb(255, 238, 0);
+}
+
+
+/* trailer */
+.h1 trailer {
+  color: #ffffff;
+  font-family:,'Courier New', Courier, monospace;
+  font-size: 50px
+}
+
+/* link */
+.link h2 { 
+  color: rgb(250, 250, 245);
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+  color: white;
+  background-color:#f5df6e;
+}
+
+.author{
+  width: 100%;
+}
